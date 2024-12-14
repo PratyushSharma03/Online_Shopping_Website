@@ -1,0 +1,1009 @@
+.profilecontenthidden{
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px; 
+    z-index: 1;
+}
+
+.notprofilecontenthidden{
+    position: absolute;
+    top: 57px;
+    right: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 20px; 
+    z-index: 1;
+}
+
+
+.delete{
+    position: relative;
+    left: 5px;
+    height: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.noitemadded{
+    top: 65px;
+    right: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: rgb(241, 234, 234);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.hiddenhide{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 220px;
+    background-color: rgb(241, 234, 234);
+    border-radius: 15px;
+    padding: 20px; 
+    z-index: 1;
+}
+
+.nothiddenhide{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        height: 220px;
+        background-color: rgb(241, 234, 234);
+        border-radius: 15px;
+        padding: 20px; 
+        z-index: 1;
+}
+
+
+button{
+    border: 1px solid red;
+    background-color:orangered;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+}
+
+.hiddenhidden{
+    position: relative;
+    top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.imghiddenlogo{
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+}
+
+.menucontainer p:hover,
+.menucontainer p.active {
+    border-bottom: 1px solid orange;
+    color: orange;
+    font-weight: bold;
+}
+
+.menu {  
+    cursor: pointer;
+    padding-left: 7px;
+    padding-bottom: 2px;
+}
+
+.logo {
+    height: 13px;
+    padding-left: 7px;
+    padding-bottom: 4px;
+}
+
+.partone {
+    width: fit-content;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.parttwo {
+    width: fit-content;
+    padding-right: 10px;
+}
+
+.cart {
+    width: fit-content;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    cursor: pointer;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    height: 50px;
+}
+
+.profile {
+    width: 22px;
+    height: 22px;
+    padding-top: 13px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.slideshow {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.prev, .next {
+    cursor: pointer;
+}
+
+.img {
+    background-color: white;
+    max-width: 100%;
+}
+
+.next {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    bottom: 1px;
+}
+
+.prev {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.content {
+    padding-left: 15px;
+    position: relative;
+    bottom: 50px;
+    color: grey;
+}
+
+h2 {
+    color: black;
+    position: relative;
+    bottom: 10px;
+}
+
+.price h4 {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 15px;
+}
+
+p {
+    position: relative;
+    bottom: 15px;
+}
+
+.price {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    right: 5px;
+}
+
+.priceoffer {
+    display: flex;
+}
+
+.price p {
+    position: relative;
+    top: 0px;
+    left: 135px;
+    color: dark rgb(109, 109, 109);
+    text-decoration: line-through;
+}
+
+.numerical-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    right: 10px;
+    bottom: 30px;
+    border-radius: 15px;
+    background-color: lightgrey;
+    height: 100px;
+}
+
+.numerical-button h3 {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    flex: 1;
+}
+
+.plus, .minus {
+    cursor: pointer;
+}
+
+.addtocart {
+    display: flex;
+    position: relative;
+    right: 10px;
+    border-radius: 15px;
+    background-color: orangered;
+    color: black;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addtocart img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 19px;
+    right: 10px;
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+    transition: max-height 0.3s ease;
+}
+
+.nothidden {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: rgb(241, 234, 234);
+    border-radius: 15px;
+    padding: 20px; 
+    z-index: 1;
+}
+
+#cart {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+}
+
+.text {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 90px; /* adjusted spacing */
+}
+
+hr {
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #ddd; /* subtle line divider */
+}
+
+.hiddenone {
+    display: none;
+}
+
+.nothiddenone {
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    padding: 20px;
+    margin: 0;
+    left: 0px;
+    top: 0px;
+    bottom: 50px;
+}
+
+.close {
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    top: 5px;
+}
+
+.menucontainer p {
+    cursor: pointer;
+}
+
+.nextprev {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;  
+    position: relative;
+    bottom: 250px;
+
+}
+
+.menucontainerdesk{
+    display: none;
+}
+
+
+@media (min-width:399px){
+    .nextprev{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;  
+        position: relative;
+        bottom: 200px;
+    }
+
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 150px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:450px){
+    .nextprev{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;  
+        position: relative;
+        bottom: 250px;
+    }
+
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 200px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:550px){
+    .nextprev{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;  
+        position: relative;
+        bottom: 310px;
+    }
+
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 200px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:500px){
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 250px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+
+@media (min-width:550px){
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 300px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:600px){
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 350px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:650px){
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 400px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (min-width:700px){
+    .price p {
+        position: relative;
+        top: 0px;
+        left: 450px;
+        color: dark rgb(109, 109, 109);
+        text-decoration: line-through;
+    }
+}
+
+@media (max-width:399px){
+   body{
+    display: none;
+   }   
+}
+
+@media (max-width: 700px){
+    .hrl{
+        display: none;
+    }
+
+    .contentone{
+        display: none;
+    }
+
+    .productdesk{
+        display: none;
+    }
+}
+
+@media (min-width:700px){
+    .hrl{
+        padding: 0 50px 0 50px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menucontainerdesk{
+        display: flex;
+        margin-left: 15px;
+        gap: 25px;
+        position: relative;
+        bottom: 1px;
+    }
+
+    .menucontainerdesk p{
+        cursor: pointer;
+    }
+
+    .partone{
+        margin-left: 5px;
+        margin-bottom: 2px;
+        gap: 20px;
+        display: flex;
+    }
+
+    .cart-container{
+        margin-right: 30px;
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+    }
+
+    .parttwo{
+        margin-right: 15px;
+        position: relative;
+        top: 0px;
+        bottom: 1px;
+    }
+
+    .profile{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .head{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (min-width:750px){
+    .hrl{
+        padding: 0 50px 0 50px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menucontainerdesk{
+        display: flex;
+        margin-left: 15px;
+        gap: 35px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .menucontainerdesk p{
+        cursor: pointer;
+    }
+
+    .partone{
+        margin-left: 5px;
+        margin-bottom: 2px;
+        gap: 20px;
+        display: flex;
+    }
+
+    .cart-container{
+        margin-right: 30px;
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+    }
+
+    .parttwo{
+        
+        margin-right: 15px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .profile{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .head{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (min-width:950px){
+    .menu{
+        display: none;
+    }
+
+    .menucontainerdesk{
+        display: flex;
+        margin-left: 45px;
+        gap: 45px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .menucontainerdesk p{
+        cursor: pointer;
+    }
+
+    .partone{
+        margin-left: 75px;
+        margin-bottom: 2px;
+        gap: 20px;
+        display: flex;
+    }
+
+    .cart-container{
+        margin-right: 30px;
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+    }
+
+    .parttwo{
+        margin-right: 50px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .profile{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .head{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (min-width:1150px){
+    .menu{
+        display: none;
+    }
+
+    .menucontainerdesk{
+        display: flex;
+        margin-left: 70px;
+        gap: 65px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .menucontainerdesk p{
+        cursor: pointer;
+    }
+
+    .partone{
+        margin-left: 100px;
+        margin-bottom: 2px;
+        gap: 20px;
+        display: flex;
+    }
+
+    .cart-container{
+        margin-right: 30px;
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+    }
+
+    .parttwo{
+        margin-right: 102px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .profile{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .head{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media (min-width:700px){
+.menucontainerdesk p:hover,
+.menucontainerdesk p.active {
+    border-bottom: 1px solid orangered;
+    color: orangered;
+    font-weight: bold;
+}
+
+.imghidden {
+    position: relative;
+    top:30px;
+    left:20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imghidden img{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.slideshow{
+    display: none;
+}
+
+.content{
+    display: none;
+}
+
+.image-display-box {
+    position: relative;
+    top: 20px; 
+    left: 50px; 
+    width: 40%;
+    height: 450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#displayed-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.contentone{
+    position: relative;
+    left: 690px;
+    bottom: 470px;
+    width: 50%;
+}
+}
+
+@media (min-width:700px){
+    .imghidden {
+        position: relative;
+        width: 50%;
+        bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .imghidden img{
+        height: 80px;
+        width: 80px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    
+    .slideshow{
+        display: none;
+    }
+    
+    .content{
+        display: none;
+    }
+    
+    .image-display-box {
+        position: relative;
+        margin-left: 11px;
+        top: 10px; 
+        width: 40%;
+        height: 450px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    
+    #displayed-image {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
+    
+    .contentone{
+        width: 245px;
+        position: absolute;
+        top: 130px;
+        left: 455px;
+    }
+
+    .price{
+        display: block;
+    }
+
+    .price p{
+        width: fit-content;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (min-width:780px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 130px;
+        left: 480px;
+    }
+}
+
+
+@media (min-width:820px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 130px;
+        left: 525px;
+    }
+}
+
+@media (min-width:865px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 130px;
+        left: 568px;
+    }
+}
+
+@media (min-width:950px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 130px;
+        left: 640px;
+    }
+}
+
+
+
+@media (min-width:1000px){
+    .imghidden {
+        position: relative;
+        left: 63px;
+        top: 70px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .imghidden img{
+        height: 85px;
+        width: 85px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    
+    .slideshow{
+        display: none;
+    }
+    
+    .content{
+        display: none;
+    }
+    
+    .image-display-box {
+        top: 15px;
+        position: relative;
+        width: 40%;
+        height: 450px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    
+    #displayed-image {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
+    
+    .contentone{
+        padding: 20px;
+        position: absolute;
+        top: 80px;
+    }
+
+    .price{
+        display: block;
+    }
+
+    .price p{
+        width: fit-content;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (min-width:1045px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 640px;
+    }
+}
+
+@media (min-width:1050px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 690px;
+    }
+}
+
+@media (min-width:1100px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 720px;
+    }
+}
+
+@media (min-width:1150px){
+    .contentone{
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 750px;
+    }
+}
+   
+@media (min-width:1200px){
+    .contentone{
+        width: 325px;
+        position: absolute;
+        top: 80px;
+        left: 750px;
+    }
+}
+
+@media (min-width:1250px){
+    .contentone{
+        width: 350px;
+        position: absolute;
+        top: 80px;
+        left: 800px;
+    }
+}
+
+@media (min-width:1290px){
+    .contentone{
+        width: 475px;
+        position: absolute;
+        top: 115px;
+        left: 920px;
+    }
+    
+    #displayed-image {
+        position: relative;
+        left: 65px;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
+
+    .imghidden {
+
+        position: relative;
+        left: 125px;
+        top: 70px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+   
+   
+
+
+
+    
+    
+    
