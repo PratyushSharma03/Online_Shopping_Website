@@ -1,4 +1,4 @@
-# Online_Shoe_Shopping_Website
+![image](https://github.com/user-attachments/assets/d88cd5f9-7a50-4239-b4a1-d96047a1db03)# Online_Shoe_Shopping_Website
 
 A responsive e-commerce platform built from scratch during my internship using HTML, CSS, CSS Flexbox, and JavaScript. It features an add-to-cart functionality, dynamic product displays, and a user-friendly layout, showcasing my skills in front-end development and responsive design.
 
@@ -10,7 +10,11 @@ A responsive e-commerce platform built from scratch during my internship using H
 
 [Add To Cart](https://drive.google.com/file/d/1jd1b6cVQ96KpVpW-ZcIHJgiOuKJK_vZZ/view?usp=sharing)  
 
-[Mobile View](https://drive.google.com/file/d/1mdXHSZY2Bt2ez0D9TJ8UyHKQByJ8DO-2/view?usp=sharing) 
+[Mobile View 1](https://drive.google.com/file/d/1mdXHSZY2Bt2ez0D9TJ8UyHKQByJ8DO-2/view?usp=sharing) 
+
+[Mobile View 2](https://drive.google.com/file/d/13ZaAQaQM3O9i1_w1-iV6yaNIWFhuHwpD/view?usp=sharing)
+
+[Mobile View 3](https://drive.google.com/file/d/1Wpk8o8NkqaYsU0eKlTrn7Mnc7Y6Agb97/view?usp=sharing)  
 
 ## Contact
 
